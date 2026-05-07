@@ -7,7 +7,7 @@ function obtenerMensaje() {
 
 fuction obtenerHora() {
   const ahora = new Date(); // Date()
-  return ahora.toLocaleString("es-PE" , { timeZone: "America/Lima"});
+  return ahora.toLocaleString("es-PE", { timeZone: "America/Lima"});
 }
 
 app.get("/", (req, res) => { 
